@@ -93,7 +93,7 @@ def newton(f, x0, epsilon1, epsilon2, M):
                 xk = x_k1
     return xk
 
-x0 = np.array([2.0, 3.0])
+x0 = np.array([2.0, 3.0]) #-3.5, -2.5
 e1 = 0.001
 e2 = 0.001
 max_iter = 100
